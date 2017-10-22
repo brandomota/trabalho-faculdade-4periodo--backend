@@ -4,7 +4,7 @@
 
 module.exports = {
     iniciarConexaoBot: () =>{
-    return "Olá, o que vc desejaq fazer?";
+    return "Olá, o que vc deseja fazer?";
     },
 
     definirRetorno: (resposta) =>{
