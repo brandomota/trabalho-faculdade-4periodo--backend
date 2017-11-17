@@ -9,7 +9,9 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req,res){
-res.send(service.definirRetorno()).status(200);
+    var mensagem = req.body.mensagem;
+    console.log(mensagem)
+res.send(service.definirRetorno(mensagem)).status(200);
 });
 
 module.exports = router;
